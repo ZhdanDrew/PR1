@@ -1,0 +1,674 @@
+body{
+    background-color: #F5F5F5 !important;
+}
+
+.header-top-cover{
+    width: 75%;
+}
+
+.header-top{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 50px;
+    background-color: #FFFFFF;
+}
+
+.social-net{
+    justify-content: space-between;
+}
+
+.adress{
+    font-family: 'ProbaPro', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.social-net a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-family: 'ProbaPro', sans-serif;
+    font-weight: 500;
+}
+
+.number{
+    font-size: 15px;
+    font-family: 'ProbaPro', sans-serif;
+    font-weight: 400;
+}
+
+.header-bot-cover{
+    width: 75%;
+    margin: auto;
+    height: 70px;
+}
+
+@font-face {
+    font-family: 'ProbaPro';
+    src: url('./fonts/Mint Type - Proba Pro Regular.otf') format('opentype');
+}
+
+.header-bot-left{
+    width: 45%;
+}
+
+.logo-txt{
+    margin-left: 5px;
+}
+
+.header-bot-right{
+    width: 45%;
+}
+
+.header-bot{
+    background-color: #F5F5F5;
+}
+
+.nav{
+    font-weight: 400;
+    font-family: 'ProbaPro', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    border-bottom: #FBDD37 1px solid;
+}
+
+.logo-txt{
+    font-weight: 400;
+    font-family: 'ProbaPro', sans-serif;
+    font-size: 20px;
+}
+
+.slider {
+    height: 700px;
+}
+
+.slider .carousel-inner {
+    height: 100%;
+    background-color: #272a2e;
+}
+
+.slider .carousel-item {
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+.slider .carousel-item > div {
+    position: relative;
+}
+
+.slider .carousel-control {
+    color: black;
+}
+
+.slider .carousel-item h1 {
+    z-index: 5;
+    position: relative;
+    color: white;
+    font-weight: 700;
+    font-family: 'ProbaPro', sans-serif;
+    font-size: 70px;
+    margin-bottom: 0;
+}
+
+.yellow{
+    color: yellow !important;
+}
+
+
+.slider .carousel-item h5 {
+    z-index: 5;
+    position: relative;
+    font-weight: 400;
+    margin-top: 15px;
+    font-size: 20px;
+    color: #959A9F;
+    font-family: 'ProbaPro', sans-serif;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.slider .carousel-item h6 {
+    z-index: 5;
+    position: relative;
+    font-weight: 400;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #959A9F;
+    font-family: 'ProbaPro', sans-serif;
+    margin-left: 3px;
+}
+
+.slider .carousel-item img {
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.btn-wrapper{
+    margin-top: 70px;
+    justify-content: left !important;
+}
+
+.btn-custom{
+    z-index: 5;
+    position: relative;
+    background-color: #FBDD37 !important;
+    border-radius: 2px !important;
+    width: 198px;
+    height: 56px;
+    border: none;
+    color: black !important;
+    font-weight: 400;
+    border: none !important;
+}
+
+.btn-custom:hover{
+    background-color: #ffef97 !important;
+}
+
+.btn-custom1:hover{
+    background-color: rgb(179, 177, 176);
+}
+
+.btn-custom1{
+    z-index: 5;
+    position: relative;
+    background-color: #fff;
+    border-radius: 2px !important;
+    width: 276px;
+    height: 56px;
+    
+    border: none;
+}
+
+.carousel-item {
+    position: relative;
+}
+
+.carousel-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: opacity 0.6s ease-in-out;
+    opacity: 0;
+    z-index: 1;
+}
+
+.carousel-item.active::before {
+    opacity: 1;
+}
+
+.carousel-inner {
+    transition: transform 0.6s ease-in-out; 
+}
+
+.carousel-item {
+    transition: opacity 0.6s ease-in-out;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    transition: opacity 0.6s ease-in-out; 
+}
+
+.carousel-indicators {
+    transition: opacity 0.6s ease-in-out; 
+}
+
+.carousel-item {
+    opacity: 0;
+    transition: opacity 1s ease-in-out; 
+}
+
+.carousel-item.active {
+    opacity: 1;
+}
+
+.content-wrapper{
+    text-align: left;
+    width: 70%;
+}
+
+.cards-cover .btn-custom {
+    background-color: #EDF1F7 !important;
+    justify-content: center !important; 
+    width: 100%; 
+    border-radius: 2px !important;
+    height: 56px;
+    border: none;
+    margin-top: 20px;
+}
+
+.cards-cover .btn-custom:hover {
+    background-color: #dbdbdb !important;
+    justify-content: center !important; 
+    width: 100%; 
+    border-radius: 2px !important;
+    height: 56px;
+    border: none;
+    margin-top: 20px;
+}
+
+.card-title {
+    text-align: center;
+    margin: 20px;
+    font-family: 'ProbaPro', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #373D43;
+}
+
+.cards-cover{
+    width: 75%;
+    margin: auto;
+}
+
+.cards-title{
+    text-align: center;
+    font-family: 'ProbaPro', sans-serif;
+    font-size: 38px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.line{
+    width: 50px;
+    height: 2px;
+    border: #889099 solid 1px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.whyUs{
+    width: 75%;
+    margin: auto;
+}
+
+.whyUs-txt{
+    text-align: center;
+    font-family: 'ProbaPro', sans-serif;
+    font-weight: 400;
+    color: #889099;
+    margin-bottom: 10px !important;
+}
+
+.mini-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'ProbaPro', sans-serif;
+}
+
+.mini-card{
+    display: flex;
+    align-items: center;
+    width: 25%;
+}
+
+.txt-part-mini{
+    margin-left: 20px;
+}
+
+.mini-cards-title{
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #373D43;
+}
+
+.mini-cards-txt{
+    font-size: 15px;
+    color: #889099;
+}
+
+.blank-cards{
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin: auto;
+    text-align: center;
+}
+
+.blank-card{
+    width: 32%;
+    height: 247px;
+    background-color: #fff;
+    border-radius: 15px;
+    position: absolute;
+}
+
+.circle{
+    border: #FBDD37 2px solid;
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    font-size: 20px;
+    
+}
+
+.blank-card-title{
+    margin-top: 20px;
+    font-family: 'ProbaPro', sans-serif;
+    font-size: 17px;
+    color: #373D43;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.blank-txt{
+    font-size: 13px;
+    color: #889099;
+    font-family: 'ProbaPro', sans-serif;
+}
+
+.work-parts{
+    width: 75%;
+    margin: auto;
+    position: relative;
+}
+
+#blc2{
+    left: 34%;
+}
+
+#blc3{
+    right: 0;
+}
+
+#blc1{
+    left: 0;
+}
+
+.arrow-r{
+    position: absolute;
+}
+
+#ar1{
+    left: 30%;
+    z-index: 2;
+    top: 180%;
+}
+
+#ar2{
+    left: 64.5%;
+    z-index: 2;
+    top: 180%;
+}
+
+.work-parts-cover{
+    height: 390px;
+}
+
+.windows{
+    width: 15%;
+    margin: auto;
+    justify-content: space-between;
+    font-family: 'ProbaPro', sans-serif;
+    color: #373D43;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.windows {
+    display: flex;
+}
+
+.window {
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+}
+
+.window.active {
+    border-bottom: 2px solid #fbdd37;
+}
+
+.category{
+    font-size: 14px;
+    color: #C4CBD2;
+    margin-bottom: 20px;
+    font-family: 'ProbaPro', sans-serif;
+}
+
+.card-txt{
+    font-family: 'ProbaPro', sans-serif;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.price{
+    font-family: 'ProbaPro', sans-serif;
+    font-size: 18px;
+    color: #373D43;
+}
+
+.zag-btn{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.zag-btn .btn-custom2{
+    width: 215px;
+    height: 56px;
+    border-radius: 0;
+}
+
+.inputs-block{
+    width: 75%;
+    margin: auto;
+    margin-top: 70px;
+    border: transparent solid 1px;
+    border-radius: 13px;
+    overflow: hidden;
+}
+
+.inputs{
+    height: 65px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #EDF1F7;
+    border: transparent;
+    border-radius: 10px;
+    color: #889099;
+    width: 100%;
+}
+
+input:focus {
+    outline: #FBDD37 2px solid;
+}
+
+.input-part-cover{
+    width: 80%;
+    align-items: center;
+    margin: auto;
+}
+
+.inputs-title{
+    text-align: left;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-family: 'ProbaPro', sans-serif;
+    font-weight: 400;
+    font-size: 38px;
+    color: #373D43;
+}
+
+.inputs-line{
+    width: 50px;
+    height: 2px;
+    border: #889099 solid 1px;
+    margin-bottom: 30px;
+}
+
+.inputs-block{
+    background-color: #FFFFFF;
+}
+
+.inputs-txt{
+    font-size: 15px;
+    color: #889099;
+    font-family: 'ProbaPro', sans-serif;
+}
+
+input{
+    padding: 20px;
+}
+
+/* .checkbox {
+    background-color: yellow;
+} */
+
+.input-checkbox{
+    margin-top: 30px;
+}
+
+.label{
+    font-size: 15px;
+    color: #889099;
+    font-family: 'ProbaPro', sans-serif;
+}
+
+.btn-custom3{
+    margin-top: 30px;
+    background-color: #FBDD37 !important;
+    border: transparent !important;
+    width: 100%;
+    height: 65px;
+    font-family: 'ProbaPro', sans-serif !important;
+}
+
+.inputs-block {
+    display: flex;
+    align-items: stretch;
+}
+
+.input-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.btn-custom3:hover{
+    background-color: #fff4b4 !important;
+}
+
+.dropdown-txt {
+    height: 0;
+    overflow: hidden;
+    transition: height 0.5s ease; /* Adjust the duration and timing function as needed */
+  }
+
+  .dropdown-txt.show {
+    height: 45px; /* Set to a sufficiently large value to accommodate your content */
+  }
+
+.ask{
+    width: 75%;
+    margin: auto;
+}
+
+.dropdowns{
+    margin-top: 20px;
+    background-color: #FFFFFF;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.dropdown-txt{
+    font-size: 15px;
+    color: #889099;
+    font-family: 'ProbaPro', sans-serif;
+}
+
+.dropdown{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.svg-arr {
+    transition: transform 0.5s ease;
+}
+
+.rotate {
+    transform: rotate(180deg);
+}
+
+.top-footer{
+    width: 75%;
+    margin: auto;
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer{
+    background-color: #373D43;
+    font-family: 'ProbaPro', sans-serif;
+    margin-top: 30px;
+}
+
+
+
+.ostapwkit{
+    font-family: 'ProbaPro', sans-serif;
+    color: #889099;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.design{
+    color: #889099;
+    font-size: 18px;
+}
+
+.nav-foot{
+    color: #C4CBD2;
+    font-size: 15px;
+}
+
+.adr{
+    color: #C4CBD2;
+    font-size: 15px;
+}
+
+.phone{
+    color: #C4CBD2;
+    font-size: 15px;
+}
+
+
+.top-footer{
+    border-bottom: 1px solid #EEEEEE1A;
+    padding-bottom: 50px;
+}
+
+.footer-bot{
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 20px;
+    color: #C4CBD2;
+    font-size: 15px;
+    font-family: 'ProbaPro', sans-serif;
+    align-items: center;
+}
